@@ -1,36 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+
 body {
+  background-color: rgb(9, 9, 70);
   display: flex;
   flex-direction: column;
   gap: 20px;
+  font-family: "Nunito", sans-serif;
 }
 
 img {
-  width: 100px;
+  width: 150px;
+}
+
+button {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
 }
 
 input {
   width: 300px;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
 }
 .input_form {
   display: flex;
   flex-flow: column;
   text-align: center;
 }
-
+.showroom {
+  display: flex;
+  justify-content: center;
+}
+.title,
+.price {
+  margin: auto;
+  font-size: 20px;
+  color: rgb(35, 54, 230);
+}
 .wrapper {
-  padding: 10px;
-  border: 2px solid black;
+  background-color: rgb(9, 9, 70);
+  margin: 50px;
+  width: 600px;
+  padding: 40px;
+  border: 2px solid rgb(98, 110, 224);
   display: flex;
   justify-content: space-between;
   align-content: center;
   cursor: pointer;
+  border-radius: 5%;
 }
 
 .wrapper:hover {
-  background-color: lightcoral;
+  background-color: rgba(98, 110, 224, 0.342);
 }
 
 .wrapper:active {
-  background-color: lightcoral;
+  background-color: rgb(98, 110, 224);
   box-shadow: inset 0 0 12px black;
 }
